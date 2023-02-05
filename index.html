@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .seprator-bt{
+            box-shadow: 0 2px 10px rgba(30,40,50,.5);
+            margin-bottom: 150px;
+        }
+        .seprator-bt:last-child{
+            margin-bottom: 20px;
+        }
+        .seprator{
+            box-shadow: inset 5px 0 1px rgba(5, 25, 44, 0.5);
+        }
+        .st:hover{
+            background: rgba(250,250,250,.2);
+            font-weight: bolder;
+        }
+        a.st:active, a.st:focus{
+            background: rgba(100,150,250,.2);
+        }
+        .pin{
+            position: fixed;
+            top: 30%;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 50px;
+            box-shadow: 0 0 15px rgba(191, 201, 221, 0.7);
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .pin ul{
+            position: relative;
+            list-style-type: none;
+        }
+        .pinLink a{
+            color: rgb(228, 228, 228);
+            font-weight: bolder;
+        }
+        .pin:hover{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <b class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none text-bold">
+            Github @mosi-sol
+          </b>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="https://github.com/mosi-sol" class="nav-link px-2 link-dark">Github</a></li>
+            <li><a href="https://linkedin.com/in/moslem-abbasi" class="nav-link px-2 link-dark">Linkedin</a></li>
+            <li><a href="https://www.youtube.com/c/pafecafe" class="nav-link px-2 link-dark">Youtube</a></li>
+            <li><a href="https://mosi-arch.github.io/view/" class="nav-link px-2 link-dark">Latest</a></li>
+            <li><a href="https://linktr.ee/mosi.sol" class="nav-link px-2 link-dark">About</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <a href="https://sol-app.github.io/Donation/" type="button" class="btn btn-outline-danger me-2">Buy me a coffee</a>
+          </div>
+        </header>
+    </div>
+
+    <!-- =========================================== -->
+    <div class="pin">
+        <ul class="justify-content-center py-2">
+            <li class="pinLink"><b class="text-light small">Parts</b><hr></li>
+            <li class="pinLink"><a href="#Defi" class="px-2">Defi</a></li>
+            <li class="pinLink"><a href="#Algorithm" class="px-2">Algorithm</a></li>
+            <li class="pinLink"><a href="#Dapp" class="px-2">Dapp</a></li>
+            <li class="pinLink"><a href="#Stream" class="px-2">Stream</a></li>
+            <li class="pinLink"><a href="#Social" class="px-2">Social</a></li>
+            <li class="pinLink"><a href="#Bitwise" class="px-2">Bitwise</a></li>
+            <li class="pinLink"><a href="#Lib" class="px-2">Libraries</a></li>
+            <li class="pinLink"><a href="#Use" class="px-2">Useful</a></li>
+        </ul>
+    </div>
+
+    <!-- =========================================== -->
+    <main class="d-flex flex-nowrap">
+        <div class="container px-4 py-5" id="icon-grid">
+            <h1 class="pb-2 border-bottom mb-1">SOLIDITY - SMART CONTRACT</h1>
+            <p class="lead text-justify">
+                In this page you can find some basic information about Solidity Smartcontract & Web3 technology + source codes.
+            </p>
+            <p class="mb-5 text-secondary">
+                For more information check [<a href="https://github.com/mosi-sol" class="text-dark text-decoration-none">github @mosi-sol]</a>
+                <br/> Enjoy it!
+            </p>
+            
+            <h2 id="Defi" class="pb-2 mb-1">Defi <span class="text-secondary small">solidity - smart contract</span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Swap </h3>
+                <p class="mt-1">Swap <br/>
+                    <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/02-Swap%20No%20Fee" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Crowd Fundraising </h3>
+                <p class="mt-1">Crowd Funding <br/>
+                    <a href="https://github.com/mosi-sol/live-contracts-s2/tree/main/21-Crowd%20Fund%20Raising%20part%202" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Escrow </h3>
+                <p class="mt-1">Escrow <br/>
+                    <a href="https://github.com/mosi-sol/live-contracts/tree/main/episode-21" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Wrapped Token </h3>
+                <p class="mt-1">Wrapped ERC20 Token <br/>
+                    <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/08-Wraped%20Token" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Multisig </h3>
+                <p class="mt-1">Multisig Wallet <br/>
+                    <a href="https://github.com/mosi-sol/live-contracts-s2/tree/main/19-Multisig%20Wallet" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Auction </h3>
+                <p class="mt-1">English Auction [nft]<br/>
+                    <a href="https://github.com/mosi-sol/live-contracts-s2/tree/main/02-NftEnglishAuction" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Membership </h3>
+                <p class="mt-1">Membership <br/>
+                    <a href="https://github.com/mosi-sol/erc721/tree/main/Utility%20Membership" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Tokenize </h3>
+                <p class="mt-1">Tokenize <br/>
+                    <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/05-Tokenize" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Staking </h3>
+                <p class="mt-1">Staking <br/>
+                    <a href="https://github.com/mosi-sol/live-contracts/tree/main/episode-6" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">Incoterms </h3>
+                <p class="mt-1">Incoterms [insurance ro;e - example] <br/>
+                    <a href="https://github.com/mosi-sol/incoterms" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start seprator">
+                <div>
+                <h3 class="fw-bold mb-0 fs-4">ICO </h3>
+                <p class="mt-1">ICO - IPO - IDO ... <br/>
+                    <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/12-%20ICO" class="btn btn-outline-primary mt-3">Source </a>
+                </p>
+                </div>
+            </div>
+
+            </div>
+            
+            <h2 id="Algorithm" class="pb-2 mt-5 mb-1">ALGORITHM <span class="text-secondary small">solidity - smart contract</span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Linear Search </h3>
+                    <p class="mt-1">Linear Search <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/11-%20Linear%20Search" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Bubble Sort </h3>
+                    <p class="mt-1">Bubble Sort <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/10-%20Bubble%20Sort" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Factorial </h3>
+                    <p class="mt-1">Factorial [ f! ] <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/09-%20Factorial" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Armstrong Number </h3>
+                    <p class="mt-1">Armstrong Number <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/08-%20Armstrong%20Number" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Perfect Number </h3>
+                    <p class="mt-1">Perfect Number <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/07-%20Perfect%20Number" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Reverse Value </h3>
+                    <p class="mt-1">Reverse Value <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/06-%20Reverse%20value" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Calculate Power </h3>
+                    <p class="mt-1">Calculate Power <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/05-%20Calculate%20Power" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Dapp" class="pb-2 mt-5 mb-1">SIMPLE DAPP <span class="text-secondary small">web3 - web view</span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">ERC20 Dashboard </h3>
+                    <p class="mt-1">ERC20 Simple Dashboard <br/>
+                        <a href="https://github.com/mosi-sol/ERC20-Dapp" class="btn btn-outline-primary mt-3">Source </a>
+                        <a href="https://mosi-sol.github.io/ERC20-Dapp/" class="btn btn-outline-secondary mt-3">Web </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Basic Dapp </h3>
+                    <p class="mt-1">Basic Dapp <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/13-%20Dapp%20infrastructure" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Verify Signature </h3>
+                    <p class="mt-1">Verify Signature <br/>
+                        <a href="https://github.com/mosi-sol/VerifySignature" class="btn btn-outline-primary mt-3">Source </a>
+                        <a href="https://mosi-sol.github.io/VerifySignature/" class="btn btn-outline-secondary mt-3">Web </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Wallet Generator </h3>
+                    <p class="mt-1">Wallet Generator <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/09-%20Wallet%20Generator%20Dapp" class="btn btn-outline-primary mt-3">Source </a>
+                        <a href="https://mosi-sol.github.io/Wallet-Web3/" class="btn btn-outline-secondary mt-3">Web </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Stream" class="pb-2 mt-5 mb-1">STREAM SERIE <span class="text-secondary small">solidity - smart contract & learning web3</span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Season 1 </h3>
+                    <p class="mt-1">Season 1 - 23 episode <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Season 2 </h3>
+                    <p class="mt-1">Season 2 - 23 episode <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s2" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Season 3 </h3>
+                    <p class="mt-1">Season 3 - 23 episode <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Season 4 </h3>
+                    <p class="mt-1">Season 4 - 22 episode <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Social" class="pb-2 mt-5 mb-1">SOCIAL WEB3 MEDIA <span class="text-secondary small">solidity - smart contract & web3</span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Chat Room </h3>
+                    <p class="mt-1">Chatroom <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s2/tree/main/23-Simple-Socialmedia" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Micro Blog </h3>
+                    <p class="mt-1">Micro Blog. like twitter, facebook... <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/01-Web3%20Blog" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Bitwise" class="pb-2 mt-5 mb-1">BITWISE OPERATOR <span class="text-secondary small">solidity - smart contract </span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Swap Variable Values </h3>
+                    <p class="mt-1">Swap Variable Values <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/22-%20Swap%20Value" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Even/Odd Number </h3>
+                    <p class="mt-1">Even/Odd Number <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/23-%20Even%20Number" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Role / Access </h3>
+                    <p class="mt-1">Role (access) <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/01-%20Bitwise%20Role" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Hash Role / Access </h3>
+                    <p class="mt-1">Hash Role (access) <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/02-%20Bitwise%20Hash%20Role" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Add / Sum </h3>
+                    <p class="mt-1">Add (Sum) <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/03-%20Bitwise%20Add" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Fibonaci </h3>
+                    <p class="mt-1">Fibonaci ( f! ) <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/04-%20Bitwise%20Fibonaci" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Average </h3>
+                    <p class="mt-1">Average <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/14-%20Bitwise%20Average" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Lib" class="pb-2 mt-5 mb-1">LIBRARIES <span class="text-secondary small">solidity - libraries </span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Safe Percentage </h3>
+                    <p class="mt-1">Safe Percentage <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/19-Defi%20Safe%20Percentage" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Safe Action </h3>
+                    <p class="mt-1">Safe Action <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/06-SafeTransfer" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Shorthand </h3>
+                    <p class="mt-1">Shorthand <br/>
+                        <a href="https://github.com/mosi-sol/5min/tree/main/06-Shorthand" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">String </h3>
+                    <p class="mt-1">String <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts/tree/main/episode-18" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 id="Use" class="pb-2 mt-5 mb-1">USEFUL <span class="text-secondary small">solidity - smart contract </span></h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1 seprator-bt p-2">
+            
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Random Number </h3>
+                    <p class="mt-1">Random Number <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts/tree/main/episode-16" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Safe Transfer </h3>
+                    <p class="mt-1">Safe Transfer <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts/tree/main/episode-19" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Whitelist </h3>
+                    <p class="mt-1">Whitelist onchain <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/20-%20Whitelist%20Ver2" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">ZK-Proof Example </h3>
+                    <p class="mt-1">Zero Knowledge Proof - Withdraw example <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts/blob/main/episode-20/SmartWithdraw.sol" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Bank Vault </h3>
+                    <p class="mt-1">Bank Vault <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/11-%20Decentralized%20Bank%20Vault" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Wallet Web3 </h3>
+                    <p class="mt-1">Wallet Address Generator/Recover - nodejs code <br/>
+                        <a href="https://github.com/mosi-sol/5min/tree/main/10-Recover%20Wallet%20by%20seed" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">NFT Wallet </h3>
+                    <p class="mt-1">NFT Wallet <br/>
+                        <a href="https://github.com/mosi-sol/NftWallet" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">ZK-Sign </h3>
+                    <p class="mt-1">Zerknowledge Signature [onchain] <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/16-ZK-Signature" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">ERC20 Ledger </h3>
+                    <p class="mt-1">ERC20 Ledger - traking tokens <br/>
+                        <a href="https://github.com/mosi-sol/erc20/tree/main/LedgerErc20%20Ver2" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Blockchain Simulator </h3>
+                    <p class="mt-1">Simulated how to work blockchain by solidity. Example using for proof of exist. <br/>
+                        <a href="https://github.com/mosi-sol/live-contract-s3/tree/main/14-Blockchain%20Simulator" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start seprator">
+                    <div>
+                    <h3 class="fw-bold mb-0 fs-4">Block Check Simulator </h3>
+                    <p class="mt-1">Simulated how to work blockchain by solidity. Example using for proof of exist. <br/>
+                        <a href="https://github.com/mosi-sol/live-contracts-s4/tree/main/13-%20How%20to%20Check%20Validator" class="btn btn-outline-primary mt-3">Source </a>
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </main>
+    <!-- =========================================== -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">[mosi-sol solidity] line of work: 2017-<span id="date"></span></span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted seprator-bt p-2" href="https://github.com/mosi-sol">Github</a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted seprator-bt p-2" href="https://www.linkedin.com/in/moslem-abbasi/">Linkedin</a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted seprator-bt p-2" href="https://www.youtube.com/c/pafecafe">Youtube</a>
+            </li>
+          </ul>
+        </footer>
+    </div>
+
+    <!-- =========================================== -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
